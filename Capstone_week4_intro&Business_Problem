@@ -1,5 +1,12 @@
 Sweet tooth locations
 
-A new bakery chain called sweet tooth wants to plant one location in every borough of New York City. They are looking for locations that are far from any other bakeries.
+A new bakery chain called sweet tooth wants to plant one location in every borough of New York City. 
+They are looking for locations that are far from any other bakeries. 
+They are also looking for locations that are close to tourist attractions since sweets and locations always go together.
 
-The data that would be used are venue locations provided by the foursquare API.
+The data that would be used are venue locations provided by the foursquare API. 
+We will use the API to find an ideal location with in a radius of 700 meters to a popular location in the borough. 
+After finding the radius that we want, we will search for bakeries in that location. 
+We will us these locations as hotspots for where not to be and plant the location that has the highest distance away from the nears bakery. 
+
+
